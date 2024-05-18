@@ -1,0 +1,228 @@
+import React from 'react'
+// import Service from './Service'
+// import Testimonial from './Testmonial'
+import Footer from './Footer';
+import Topbar from './Topbar';
+import { Link } from 'react-router-dom';
+export default function Serviceus() {
+  return (
+    <>
+    <Topbar/>
+    
+    <div className="container-fluid position-relative p-0" style={{
+        top: 0 ,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        background:'rgba(9, 30, 62, .7)',
+        zIndex:1 }}>
+              <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+                  <Link to="/" className="navbar-brand p-0">
+                  <h1 className="m-0"><img   src='img/logo.jpg' alt="logo" />IEEE GCET SB</h1>
+                  </Link>
+                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                      <span className="fa fa-bars"></span>
+                  </button>
+                  <div className="collapse navbar-collapse" id="navbarCollapse">
+                      <div className="navbar-nav ms-auto py-0">
+                          <Link to="/" className="nav-item nav-link">Home</Link>
+                          <Link to="/Aboutus" className="nav-item nav-link">About</Link>
+                          <div className="nav-item dropdown">
+                              <Link to="/Events" className="nav-link dropdown-toggle " data-bs-toggle="dropdown">Events</Link>
+                              <div className="dropdown-menu m-0">
+                              <Link to="/Recent" className="dropdown-item ">Recent</Link>
+                                  <Link to="/Events" className="dropdown-item active">Events 21-22</Link>
+                                  <Link to="/Events1" className="dropdown-item">Events 2020</Link>
+                              </div>
+                          </div>
+                          <div className="nav-item dropdown">
+                              <Link to="/Xecom" className="nav-link dropdown-toggle " data-bs-toggle="dropdown">Xecom </Link>
+                              <div className="dropdown-menu m-0">
+                                  <Link to="/Xecom" className="dropdown-item ">Xecom 2022</Link>
+                                  <Link to="/Xecom" className="dropdown-item">Xecom 2023</Link>
+                              </div>
+                          </div>
+                          <div className="nav-item dropdown">
+                              <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
+                              <div className="dropdown-menu m-0">
+                                  <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
+                                
+                                  <Link to="/Teamus" className="dropdown-item">Team Members</Link>
+                                  
+                              </div>
+                          </div>
+                         
+                      </div>
+                      <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
+                      <Link to="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">Download Pro Version</Link>
+                  </div>
+              </nav>
+  
+              <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '90px' }}>
+                  <div className="row py-5">
+                      <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                          <h1 className="display-4 text-white animated zoomIn">Events</h1>
+                          
+                          <Link to="/Serviceus" className="h5 text-white">Events of IEEE 2021 -2022</Link>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="container py-5">
+              <div class="row g-7">
+             
+                  <div class="col-lg-11">
+                      <div class="row g-5">
+
+                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-1.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Webinar</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>B.John Benedict</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>26 Sep, 2021</small>
+                                      </div>
+                                      <h4 class="mb-3">Webinar on IEEE XTREME -Start of Carrer Sucess</h4>
+
+                                      <Link class="text-uppercase" to="">Details <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-2.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Enigma</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>Dr.s.Nagendar Kumar </small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>25 mar 2021</small>
+                                      </div>
+                                      <h4 class="mb-3">Enigma 3.0</h4>
+
+                                      <Link class="text-uppercase" to="">Details <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-3.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">IEEE Xtreme 15.0</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>Dr. G. Soma Sekhar</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>23 oct 2021</small>
+                                      </div>
+                                      <h4 class="mb-3">IEEE Xtreme 15.0</h4>
+
+                                      <Link class="text-uppercase" to="">Details <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-1.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Industrial Visit</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>Dr.G.Soma Sekhar</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>27 feb, 2022</small>
+                                      </div>
+                                      <h4 class="mb-3">Online Industrial Visit</h4>
+
+                                      <Link class="text-uppercase" to="">details <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          {/* <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-2.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Web Design</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                      </div>
+                                      <h4 class="mb-3">How to build a website</h4>
+                                      <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                      <Link class="text-uppercase" to="">Read More <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-3.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Web Design</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                      </div>
+                                      <h4 class="mb-3">How to build a website</h4>
+                                      <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                      <Link class="text-uppercase" to="">Read More <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/blog-1.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Web Design</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                      </div>
+                                      <h4 class="mb-3">How to build a website</h4>
+                                      <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                                      <Link class="text-uppercase" to="">Read More <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 wow slideInUp" data-wow-delay="0.1s">
+                              <nav aria-label="Page navigation">
+                                <ul class="pagination pagination-lg m-0">
+                                  <li class="page-item disabled">
+                                    <Link class="page-link rounded-0" to="#" aria-label="Previous">
+                                      <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
+                                    </Link>
+                                  </li>
+                                  <li class="page-item active"><Link class="page-link" to="#">1</Link></li>
+                                  <li class="page-item"><Link class="page-link" to="#">2</Link></li>
+                                  <li class="page-item"><Link class="page-link" to="#">3</Link></li>
+                                  <li class="page-item">
+                                    <Link class="page-link rounded-0" to="#" aria-label="Next">
+                                      <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </nav>
+                          </div>  */}
+                      </div>
+                  </div>
+               
+
+                  
+              </div>
+          </div>
+      </div>
+      <Footer/>
+    </>
+  )
+}
