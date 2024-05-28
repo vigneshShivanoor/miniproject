@@ -15,6 +15,10 @@ import Bloggrid from './components/Bloggrid';
 import Xecom from './components/Xecom';
 import Xecom1 from './components/Xecom1';
 import Detail from './components/Detail';
+import Chakravyuh from './components/Chakravyuh';
+import Contactus from './components/Contactus';
+import Ieeextreme from './components/Ieeextreme';
+import Faculty from './components/Faculty';
 
 function App() {
   return (
@@ -34,6 +38,10 @@ function App() {
         <Route path="/Xecom" element={<Xecom/>}></Route>
         <Route path="/Xecom1" element={<Xecom1/>}></Route>
         <Route path="/Detail" element={<Detail/>}></Route>
+        <Route path="/Chakravyuh" element={<Chakravyuh/>}></Route>
+        <Route path="/Contactus" element={<Contactus/>}></Route>
+        <Route path="/Ieeextreme" element={<Ieeextreme/>}></Route>
+        <Route path="/Faculty" element={<Faculty/>}></Route>
         </Routes>
       </Router>
     </>

@@ -47,13 +47,14 @@ export default function Priceus() {
                 <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
                 
                 <Link to="/Teamus" className="dropdown-item">Team Members</Link>
+                <Link to="/Faculty" className="dropdown-item">Faculty</Link>
                 
               </div>
             </div>
            
           </div>
-          <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
-          <Link to="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">JOIN IEEE</Link>
+       
+          <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">JOIN IEEE</Link>
         </div>
       </nav>
 

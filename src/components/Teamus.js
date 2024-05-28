@@ -16,21 +16,21 @@ export default function Teamus() {
         background:'rgba(9, 30, 62, .7)',
         zIndex:1 }}>
             <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-                <a href="index.html" className="navbar-brand p-0">
+                <Link to="index.html" className="navbar-brand p-0">
                 <h1 className="m-0"><img   src='img/logo.jpg' alt="logo" />IEEE GCET SB</h1>
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="fa fa-bars"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
-                        <a href="/" className="nav-item nav-link">Home</a>
-                        <a href="/Aboutus" className="nav-item nav-link">About</a>
+                        <Link to="/" className="nav-item nav-link">Home</Link>
+                        <Link to="/Aboutus" className="nav-item nav-link">About</Link>
                         <div className="nav-item dropdown">
                               <Link to="/Events" className="nav-link dropdown-toggle " data-bs-toggle="dropdown">Events</Link>
                               <div className="dropdown-menu m-0">
                               <Link to="/Recent" className="dropdown-item ">Recent</Link>
-                                  <Link to="/Events" className="dropdown-item active">Events 21-22</Link>
+                                  <Link to="/Events" className="dropdown-item ">Events 21-22</Link>
                                   <Link to="/Events1" className="dropdown-item">Events 2020</Link>
                               </div>
                           </div>
@@ -42,18 +42,19 @@ export default function Teamus() {
               </div>
             </div>
                         <div className="nav-item dropdown">
-                            <a href="index.html" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <Link to="index.html" className="nav-link dropdown-toggle " data-bs-toggle="dropdown">More</Link>
                             <div className="dropdown-menu m-0">
-                                <a href="/Priceus" className="dropdown-item">Pricing Plan</a>
-                                {/* <a href="feature.html" className="dropdown-item">Our features</a> */}
-                                <a href="/Teamus" className="dropdown-item active">Team Members</a>
+                                <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
+                                {/* <Link to="feature.html" className="dropdown-item">Our features</Link> */}
+                                <Link to="/Teamus" className="dropdown-item ">Team Members</Link>
+                                <Link to="/Faculty" className="dropdown-item">Faculty</Link>
                                
                             </div>
                         </div>
                    
                     </div>
-                    <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
-                    <a href="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">Join IEEE</a>
+                 
+                    <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">Join IEEE</Link>
                 </div>
             </nav>
 

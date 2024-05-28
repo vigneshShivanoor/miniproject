@@ -488,3 +488,55 @@ h6,
         margin-bottom: -75px;
     }
 }
+.bg-header1 {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(/public/img/supraja.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bg-header2 {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(/public/img/Xtreme.jpg) center center no-repeat;
+    background-size: cover;
+}
+/* Main container style */
+.main-container {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+  }
+  
+  /* Profile card style */
+  .profile-card {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Profile image style */
+  .profile-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Profile link style */
+  .profile-link {
+    display: inline-block;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .profile-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

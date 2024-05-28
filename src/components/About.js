@@ -1,6 +1,7 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function AboutUs() {
+  const mail=`naveen@gmail.com`
   return (
     <>
    
@@ -32,11 +33,11 @@ function AboutUs() {
                 <h4 className="text-primary mb-0">+91 7738363524</h4>
               </div>
             </div>
-            <a href="quote.html" className="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Suggestion </a>
+            <Link to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail}`} className="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Suggestion </Link>
           </div>
           <div className="col-lg-5" style={{ minHeight: '500px' }}>
             <div className="position-relative h-100">
-              <img className="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style={{ objectFit: 'cover' }} alt="About Us" />
+              <img className="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about1.jpg" style={{ objectFit: 'cover' }} alt="About Us" />
             </div>
           </div>
         </div>

@@ -41,19 +41,20 @@ function Navbar() {
               </div>
             </div>
             <div className="nav-item dropdown">
-              <Link to="Aboutus" className="nav-link dropdown-toggle" data-bs-toggle="dropdown"> more</Link>
+              <Link to="Aboutus" className="nav-link dropdown-toggle" data-bs-toggle="dropdown"> More</Link>
               <div className="dropdown-menu m-0">
                 <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
                 {/* <Link to="/Featureus" className="dropdown-item">Our features</Link> */}
                 <Link to="/Teamus" className="dropdown-item">Team Members</Link>
+                <Link to="/Faculty" className="dropdown-item">Faculty</Link>
              
                 
               </div>
             </div>
            
           </div>
-          <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
-          <Link to="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">Join IEEE</Link>
+          {/* <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button> */}
+          <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">Join IEEE</Link>
         </div>
       </nav>
 
@@ -88,7 +89,7 @@ function Navbar() {
               <div className="p-3" style={{ maxWidth: '900px' }}>
                
                 <h1 className="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative</h1>
-                <Link to="https://www.instagram.com/shivanoor_vignesh12/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Join us</Link>
+                <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Join us</Link>
                 <Link to="/Aboutus" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
               </div>
             </div>

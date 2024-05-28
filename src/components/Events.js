@@ -43,18 +43,19 @@ export default function Serviceus() {
                               </div>
                           </div>
                           <div className="nav-item dropdown">
-                              <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
+                              <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</Link>
                               <div className="dropdown-menu m-0">
                                   <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
                                 
                                   <Link to="/Teamus" className="dropdown-item">Team Members</Link>
+                                  <Link to="/Faculty" className="dropdown-item">Faculty</Link>
                                   
                               </div>
                           </div>
                          
                       </div>
-                      <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
-                      <Link to="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">Download Pro Version</Link>
+                     
+                      <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">Join IEEE</Link>
                   </div>
               </nav>
   
@@ -79,7 +80,7 @@ export default function Serviceus() {
                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
                               <div class="blog-item bg-light rounded overflow-hidden">
                                   <div class="blog-img position-relative overflow-hidden">
-                                      <img class="img-fluid" src="img/blog-1.jpg" alt=""/>
+                                      <img class="img-fluid" src="img/chakravyuh1.jpg" alt=""/>
                                       <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Webinar</Link>
                                   </div>
                                   <div class="p-4">
@@ -96,7 +97,7 @@ export default function Serviceus() {
                           <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
                               <div class="blog-item bg-light rounded overflow-hidden">
                                   <div class="blog-img position-relative overflow-hidden">
-                                      <img class="img-fluid" src="img/blog-2.jpg" alt=""/>
+                                      <img class="img-fluid" src="img/chakravyuh1.jpg" alt=""/>
                                       <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Enigma</Link>
                                   </div>
                                   <div class="p-4">
@@ -113,7 +114,7 @@ export default function Serviceus() {
                           <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
                               <div class="blog-item bg-light rounded overflow-hidden">
                                   <div class="blog-img position-relative overflow-hidden">
-                                      <img class="img-fluid" src="img/blog-3.jpg" alt=""/>
+                                      <img class="img-fluid" src="img/chakravyuh1.jpg" alt=""/>
                                       <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">IEEE Xtreme 15.0</Link>
                                   </div>
                                   <div class="p-4">
@@ -130,7 +131,7 @@ export default function Serviceus() {
                           <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
                               <div class="blog-item bg-light rounded overflow-hidden">
                                   <div class="blog-img position-relative overflow-hidden">
-                                      <img class="img-fluid" src="img/blog-1.jpg" alt=""/>
+                                      <img class="img-fluid" src="img/chakravyuh1.jpg" alt=""/>
                                       <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="">Industrial Visit</Link>
                                   </div>
                                   <div class="p-4">

@@ -5,6 +5,7 @@ import Team from './Team';
 import About from './About';
 import { Link } from 'react-router-dom';
 export default function Aboutus() {
+  const mail="vigneshshivanoor@gmail.com"
   return (
     <>
     <Topbar/>
@@ -17,7 +18,7 @@ export default function Aboutus() {
         background:'rgba(9, 30, 62, .7)',
         zIndex:1 }}>
       <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <Link to="index.html" className="navbar-brand p-0">
+        <Link to="/" className="navbar-brand p-0">
         <h1 className="m-0"><img   src='img/logo.jpg' alt="logo" />IEEE GCET SB</h1>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -43,25 +44,26 @@ export default function Aboutus() {
               </div>
             </div>
             <div className="nav-item dropdown">
-              <Link to="index.html" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</Link>
+              <Link to="/Priceus" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">More</Link>
               <div className="dropdown-menu m-0">
                 <Link to="/Priceus" className="dropdown-item active">Pricing Plan</Link>
             
                 <Link to="/Teamus" className="dropdown-item">Team Members</Link>
+                <Link to="/Faculty" className="dropdown-item">Faculty</Link>
                
               </div>
             </div>
          
           </div>
-          <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
-          <Link to="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">JOIN IEEE</Link>
+          
+          <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">JOIN IEEE</Link>
         </div>
       </nav>
 
       <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '90px' }}>
         <div className="row py-5">
           <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-            <h1 className="display-4 text-white animated zoomIn">Yearly Membership for Societies</h1>
+            <h1 className="display-4 text-white animated zoomIn">About us</h1>
 
             <Link to="/" className="h5 text-white">IEEE SB GCET</Link>
           </div>
@@ -76,7 +78,7 @@ export default function Aboutus() {
         <div className="row g-5">
             <div className="col-lg-5" style={{minHeight: '500px'}}>
                 <div className="position-relative h-100">
-                    <img className="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg"  alt="" style={{objectFit: 'cover'}} />
+                    <img className="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/ieeeAbout1.jpg"  alt="" style={{objectFit: 'cover'}} />
                 </div>
             </div>
             <div className="col-lg-7">
@@ -111,7 +113,7 @@ export default function Aboutus() {
                         <h4 className="text-primary mb-0">+91 7738363524</h4>
                     </div>
                 </div>
-                <Link to="quote.html" className="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A  sugestion</Link>
+                <Link to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail}`} className="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A  sugestion</Link>
             </div>
         </div>
     </div>
