@@ -30,7 +30,7 @@ function Price() {
             </div>
           </div>
           <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-            <div className="bg-white rounded shadow position-relative" style={{ zIndex: 1 }}>
+            <div className="bg-white rounded shadow position-relative" >
               <div className="border-bottom py-4 px-5 mb-4">
                 <h4 className="text-primary mb-1">IEEE Computer Society</h4>
                 <small className="text-uppercase">Yearly Membership</small>
