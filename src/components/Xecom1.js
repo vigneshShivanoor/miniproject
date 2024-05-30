@@ -24,7 +24,10 @@ const GeneralExecom = () => {
       }}>
         <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
           <Link to="/" className="navbar-brand p-0">
-            <h1 className="m-0"><img src='img/logo.jpg' alt="logo" />IEEE GCET SB</h1>
+          <h1 className="m-0" style={{ filter: 'drop-shadow(2px 4px 6px black)' }} >
+                <img src='img/logo.jpg' alt="logo" style={{padding:'0.3rem 1rem'}}/>
+                <span>IEEE GCET SB</span>
+            </h1>
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="fa fa-bars"></span>

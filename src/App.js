@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Events from './components/Events';
 import Recent from './components/Recent';
 import Events1 from './components/Events1';
-import Featureus from './components/Featureus';
+// import Featureus from './components/Featureus';
 import Priceus from './components/Priceus';
 import Teamus from './components/Teamus';
 import Frontpage from './components/Frontpage';
@@ -31,7 +31,7 @@ function App() {
         <Route  path="/Recent" element={<Recent/>}></Route>
         <Route  path="/Events1" element={<Events1/>}></Route>
         <Route  path="/Aboutus" element={<Aboutus/>}></Route>
-        <Route path="/Featureus" element={<Featureus/>}></Route>
+        {/* <Route path="/Featureus" element={<Featureus/>}></Route> */}
         <Route path="/Priceus" element={<Priceus/>}></Route>
         <Route path="/Teamus" element={<Teamus/>}></Route>
         <Route path="/Bloggrid" element={<Bloggrid/>}></Route>
