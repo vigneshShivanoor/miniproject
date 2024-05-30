@@ -59,7 +59,7 @@ export default function Aboutus() {
          
           </div>
           
-          <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">JOIN IEEE</Link>
+          <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-2 px-4 ms-3">Join IEEE</Link>
         </div>
       </nav>
 
