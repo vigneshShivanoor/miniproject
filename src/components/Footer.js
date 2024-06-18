@@ -39,10 +39,10 @@ function Footer() {
                     <p className="mb-0">+91 7738363524</p>
                   </div>
                   <div className="d-flex mt-4">
-                    <Link className="btn btn-primary btn-square me-2" to="#"><i className="fab fa-twitter fw-normal"></i></Link>
-                    <Link className="btn btn-primary btn-square me-2" to="#"><i className="fab fa-facebook-f fw-normal"></i></Link>
-                    <Link className="btn btn-primary btn-square me-2" to="#"><i className="fab fa-linkedin-in fw-normal"></i></Link>
-                    <Link className="btn btn-primary btn-square" to="#"><i className="fab fa-instagram fw-normal"></i></Link>
+                    <Link className="btn btn-primary btn-square me-2" to="https://www.instagram.com/ieee_gcetsb/"><i className="fab fa-twitter fw-normal"></i></Link>
+                    <Link className="btn btn-primary btn-square me-2" to="https://www.instagram.com/ieee_gcetsb/"><i className="fab fa-facebook-f fw-normal"></i></Link>
+                    <Link className="btn btn-primary btn-square me-2" to="https://www.instagram.com/ieee_gcetsb/"><i className="fab fa-linkedin-in fw-normal"></i></Link>
+                    <Link className="btn btn-primary btn-square" to="https://www.instagram.com/ieee_gcetsb/"><i className="fab fa-instagram fw-normal"></i></Link>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">

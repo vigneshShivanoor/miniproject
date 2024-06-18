@@ -94,7 +94,7 @@ function Navbar() {
               }} >
                 <div className="p-3" style={{ maxWidth: '900px' }}>
 
-                  <h1 className="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative</h1>
+                  <h1 className="display-1 text-white mb-md-4 animated zoomIn">Try & Test</h1>
                   <Link to="https://www.ieee.org/profile/public/createwebaccount/showRegister.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Join us</Link>
                   <Link to="/Aboutus" className="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</Link>
                 </div>
