@@ -473,7 +473,7 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(/public/img/gctc.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(/public/img/gctc3.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -542,3 +542,53 @@ h6,
     }
   }
   
+
+  /* faq */
+
+  .container1 {
+            max-width: 1400px;
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .faq {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .question {
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .question::after {
+            content: "▼";
+            font-size: 1rem;
+            transition: transform 0.3s ease;
+        }
+        .faq-item.open .question::after {
+            transform: rotate(180deg);
+        }
+        .answer {
+            font-size: 1rem;
+            margin-top: 10px;
+            display: none;
+        }
+        .faq-item.open .answer {
+            display: block;
+        }

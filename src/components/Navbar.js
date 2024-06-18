@@ -18,7 +18,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
           <Link to="/" className="navbar-brand p-0">
             <h1 className="m-0" style={{ filter: 'drop-shadow(2px 4px 6px black)' }} >
-                <img src='img/logo.jpg' alt="logo" style={{padding:'0.3rem 1rem'}}/>
+                <img src='img/ieee.png' alt="logo" style={{padding:'0.3rem 1rem'}}/>
                 <span>IEEE GCET SB</span>
             </h1>
           </Link>
@@ -65,7 +65,7 @@ function Navbar() {
         <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="w-100" src="/img/gcet.jpg" alt="" />
+              <img className="w-100" src="/img/gctc3.jpg" alt="" />
               <div className="carousel-caption d-flex flex-column align-items-center justify-content-center" style={{
                 top: 0,
                 left: 0,
@@ -83,7 +83,7 @@ function Navbar() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="w-100" src="img/gcet.jpg" alt="" />
+              <img className="w-100" src="img/gctc3.jpg" alt="" />
               <div className="carousel-caption d-flex flex-column align-items-center justify-content-center" style={{
                 top: 0,
                 left: 0,

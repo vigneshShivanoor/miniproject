@@ -9,7 +9,7 @@ function Footer() {
             <div className="col-lg-4 col-md-6 footer-about">
               <div className="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                 <Link to="/" className="navbar-brand">
-                <h1 className="m-0"><img   src='img/logo.jpg' alt="logo" />IEEE GCET SB</h1>
+                <h1 className="m-0"><img   src='img/ieee.png' alt="logo" />IEEE GCET SB</h1>
                 </Link>
                 <p className="mt-3 mb-4">The IEEE Student Branch at Geethanjali College of Engineering and Technology (GCET) is a vibrant community dedicated to fostering technological innovation, academic excellence, and professional growth among its members. As a part of the larger IEEE organization, the student branch provides a platform for students to engage in various technical, professional, and social activities that enrich their educational experience</p>
                 <form action="">

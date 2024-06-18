@@ -19,7 +19,9 @@ import Chakravyuh from './components/Chakravyuh';
 import Contactus from './components/Contactus';
 import Ieeextreme from './components/Ieeextreme';
 import Faculty from './components/Faculty';
-
+import CodeQuizz from './components/Codequizz';
+import Faq from './components/Faq';
+import Slider from './components/Slider';
 function App() {
   return (
     <>
@@ -42,6 +44,9 @@ function App() {
         <Route path="/Contactus" element={<Contactus/>}></Route>
         <Route path="/Ieeextreme" element={<Ieeextreme/>}></Route>
         <Route path="/Faculty" element={<Faculty/>}></Route>
+        <Route path="/Codequizz" element={<CodeQuizz/>}></Route>
+        <Route path="/Faq" element={<Faq/>}></Route>
+        <Route path="/Slider" element={<Slider/>}></Route>
         </Routes>
       </Router>
     </>

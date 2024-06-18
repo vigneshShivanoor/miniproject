@@ -23,7 +23,7 @@ function Facts() {
               </div>
               <div className="ps-4">
                 <h5 className="text-primary mb-0">Projects Done</h5>
-                <h1 className="mb-0" data-toggle="counter-up">300</h1>
+                <h1 className="mb-0" data-toggle="counter-up">5</h1>
               </div>
             </div>
           </div>

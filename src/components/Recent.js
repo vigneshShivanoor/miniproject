@@ -19,7 +19,7 @@ export default function Recent() {
               <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
                   <Link to="/" className="navbar-brand p-0">
                   <h1 className="m-0" style={{ filter: 'drop-shadow(2px 4px 6px black)' }} >
-                <img src='img/logo.jpg' alt="logo" style={{padding:'0.3rem 1rem'}}/>
+                <img src='img/ieee.png' alt="logo" style={{padding:'0.3rem 1rem'}}/>
                 <span>IEEE GCET SB</span>
             </h1>
                   </Link>
@@ -78,23 +78,7 @@ export default function Recent() {
              
                   <div class="col-lg-11">
                       <div class="row g-5">
-                      <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
-                              <div class="blog-item bg-light rounded overflow-hidden">
-                                  <div class="blog-img position-relative overflow-hidden">
-                                      <img class="img-fluid" src="img/Xtreme.jpg" alt=""/>
-                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="/Ieeextreme">IEEE Xteme 4.0</Link>
-                                  </div>
-                                  <div class="p-4">
-                                      <div class="d-flex mb-3">
-                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>Neha Nandal</small>
-                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>04 April, 2023</small>
-                                      </div>
-                                      
-                                      <p>International Level Coding all the students should participate</p>
-                                      <Link class="text-uppercase" to="/Ieeextreme">Register Here <i class="bi bi-arrow-right"></i></Link>
-                                  </div>
-                              </div>
-                          </div>
+                      
                           <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s">
                               <div class="blog-item bg-light rounded overflow-hidden">
                                   <div class="blog-img position-relative overflow-hidden">
@@ -129,6 +113,45 @@ export default function Recent() {
                                   </div>
                               </div>
                           </div>
+
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/codequizz.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="/Codequizz">CODEQUIZZ: ML Edition</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"> k Shruthi (Secretary- IEEE CS)</i></small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>04 April, 2023</small>
+                                      </div>
+                                      
+                                      <p>"CodeQuizz: ML Edition" is related to the field of Machine Learning, an exciting event for enthusiasts of this dynamic field. </p>
+                                      <Link class="text-uppercase" to="/Codequizz">Register Here <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                          <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s">
+                              <div class="blog-item bg-light rounded overflow-hidden">
+                                  <div class="blog-img position-relative overflow-hidden">
+                                      <img class="img-fluid" src="img/Xtreme.jpg" alt=""/>
+                                      <Link class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" to="/Ieeextreme">IEEE Xteme 4.0</Link>
+                                  </div>
+                                  <div class="p-4">
+                                      <div class="d-flex mb-3">
+                                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>Neha Nandal</small>
+                                          <small><i class="far fa-calendar-alt text-primary me-2"></i>04 April, 2023</small>
+                                      </div>
+                                      
+                                      <p>International Level Coding all the students should participate</p>
+                                      <Link class="text-uppercase" to="/Ieeextreme">Register Here <i class="bi bi-arrow-right"></i></Link>
+                                  </div>
+                              </div>
+                          </div>
+
+
                          </div>
                          </div>
 

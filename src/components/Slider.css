@@ -1,0 +1,33 @@
+/* styles.css */
+
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    width: calc(300px * 10); /* Number of cards * card width */
+    animation: scroll 30s linear infinite;
+}
+
+.card {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

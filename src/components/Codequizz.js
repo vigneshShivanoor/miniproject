@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Topbar from './Topbar'
 import Footer from './Footer'
 
-export default function Chakravyuh() {
+export default function CodeQuizz() {
   return (
    <>
    <Topbar/>
@@ -58,10 +58,10 @@ export default function Chakravyuh() {
                   </div>
               </nav>
   
-              <div className="container-fluid bg-primary py-5 bg-header1" style={{ marginBottom: '90px' }}>
+              <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '90px' }}>
                   <div className="row py-5">
                       <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-                          <h1 className="display-4 text-white animated zoomIn">Chakravyuh</h1>
+                          <h1 className="display-4 text-white animated zoomIn">CODEQUIZZ: ML Edition</h1>
                           <Link to="/Serviceus" className="h5 text-white">Event Sponsored By IEEE</Link>
                       </div>
                   </div>
@@ -73,9 +73,11 @@ export default function Chakravyuh() {
             <div className="row g-5">
                 <div className="col-lg-8">
                     <div className="mb-5">
-                        <img className="img-fluid w-100 rounded mb-5" src="img/chakravyuh1.jpg" alt=""/>
-                        <h1 className="mb-4">Chakravuyuh</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio cumque ducimus aperiam officiis. Sunt, perferendis maiores totam quidem ratione enim quod debitis magnam sapiente earum facilis quibusdam excepturi nihil ipsam exercitationem placeat nam ad deserunt perspiciatis aspernatur tempora, repudiandae quae. Vel at alias adipisci quia exercitationem assumenda architecto cumque, provident ab harum ad iste nostrum facere accusantium doloribus soluta ipsam praesentium quod veniam? Facere officiis similique neque ipsa?</p>
+                        <img className="img-fluid w-100 rounded mb-5" src="img/codequizz.jpg" alt=""/>
+                        <h1 className="mb-4">CODEQUIZZ: ML Edition</h1>
+                        <p>CodeQuizz: ML Edition" is related to the field of Machine Learning, an exciting event for enthusiasts of this dynamic field. With a maximum of 25 participants in 5 teams, each comprising 5 members, this competition featured three engaging rounds. 
+In round one, teams collaboratively tackled thought-provoking questions to showcase their comprehension and application of Machine Learning principles. Top performers advanced to round two, facing a team challenge on problem statements provided to them. 1 team sent to round three where 5 individuals will face cross word challenge to demonstrate mastery of concepts, and speakers came together to mark the success of "TECHNO SPARKZ" and the spirit of IEEE.
+</p>
                     </div>
                 </div>
             </div>
@@ -87,35 +89,79 @@ export default function Chakravyuh() {
             <h1 className="mb-4">Gallery</h1>
             <div className="row g-4">
                 <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh12.jpg" alt="Gallery1"/>
+                    <img className="img-fluid w-100 rounded" src="img/cq1.jpg" alt="Gallery1"/>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh11.jpg" alt="Gallery1"/>
+                    <img className="img-fluid w-100 rounded" src="img/cq2.jpg" alt="Gallery1"/>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh2.jpg" alt="Gallery 2"/>
+                    <img className="img-fluid w-100 rounded" src="img/cq3.jpg" alt="Gallery 2"/>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh3jpg.jpg" alt="Gallery 3"/>
+                    <img className="img-fluid w-100 rounded" src="img/cq4.jpg" alt="Gallery 3"/>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh4.jpg" alt="Gallery 4"/>
+                    <img className="img-fluid w-100 rounded" src="img/cq5.jpg" alt="Gallery 4"/>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh5.jpg" alt="Gallery 5"/>
+                    <img className="img-fluid w-100 rounded" src="img/cq7.jpg" alt="Gallery 5"/>
                 </div>
-                <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh6.jpg" alt="Gallery 6"/>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <img className="img-fluid w-100 rounded" src="img/chakravyuh10.jpg" alt="Gallery 7"/>
-                </div>
+             
             </div>
         </div>
     </div>
 
-    
 
+
+
+
+
+
+    <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container py-5">
+        <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: '600px' }}>
+          <h5 className="fw-bold text-primary text-uppercase">Team Organizers</h5>
+        
+        </div>
+        <div className="row g-5">
+          <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+            <div className="team-item bg-light rounded overflow-hidden">
+              <div className="team-img position-relative overflow-hidden">
+                <img className="img-fluid w-100" src="img/vignesh.jpg" alt="" />
+                <div className="team-social">
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-twitter fw-normal"></i></Link>
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-facebook-f fw-normal"></i></Link>
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-instagram fw-normal"></i></Link>
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-linkedin-in fw-normal"></i></Link>
+                </div>
+              </div>
+              <div className="text-center py-4">
+                <h4 className="text-primary">K Shruthi</h4>
+                <p className="text-uppercase m-0"> (Secretary- IEEE CS)</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+            <div className="team-item bg-light rounded overflow-hidden">
+              <div className="team-img position-relative overflow-hidden">
+                <img className="img-fluid w-100" src="img/anish.jpg" alt="" />
+                <div className="team-social">
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-twitter fw-normal"></i></Link>
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-facebook-f fw-normal"></i></Link>
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-instagram fw-normal"></i></Link>
+                  <Link className="btn btn-lg btn-primary btn-lg-square rounded" to="/Aboutus"><i className="fab fa-linkedin-in fw-normal"></i></Link>
+                </div>
+              </div>
+              <div className="text-center py-4">
+                <h4 className="text-primary">D Chaitra</h4>
+                <p className="text-uppercase m-0"> (Excom member, IEEE CS)</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
    <Footer/>
    </>
   )

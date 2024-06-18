@@ -11,7 +11,8 @@ import Footer from './Footer';
 // import Testimonial from './Testmonial';
 import Topbar from './Topbar';
 import Blog from './Blog';
-
+ import Faq from './Faq';
+import Slider from './Slider';
 
 
 export default function front() {
@@ -28,6 +29,8 @@ export default function front() {
         {/* <Testimonial /> */}
         <Team />
         <Blog/>
+        <Faq/>
+        <Slider/> 
         <Footer />
   </>
   )
