@@ -61,6 +61,7 @@ export default function Priceus() {
                   <Link to="/Recent" className="dropdown-item ">
                     Recent
                   </Link>
+                  <Link to="/Event2023" className="dropdown-item ">Events 2023-2024</Link>
                   <Link to="/Events" className="dropdown-item ">
                     Events 21-22
                   </Link>

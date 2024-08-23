@@ -22,12 +22,14 @@ import Faculty from './components/Faculty';
 import CodeQuizz from './components/Codequizz';
 import Faq from './components/Faq';
 import Slider from './components/Slider';
+import Event2023 from './components/Event2023';
 function App() {
   return (
     <>
       <Router>
         <Routes>
         <Route path="/" element={<Frontpage />}></Route>
+        <Route path="/Event2023" element={<Event2023/>}></Route>
         <Route  path="/Contact" element={<Contact/>}></Route>
         <Route  path="/Events" element={<Events/>}></Route>
         <Route  path="/Recent" element={<Recent/>}></Route>

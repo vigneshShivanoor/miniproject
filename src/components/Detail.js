@@ -35,6 +35,7 @@ export default function detail() {
                           <div className="nav-item dropdown">
                               <Link to="/Xecom" className="nav-link dropdown-toggle " data-bs-toggle="dropdown">Xecom </Link>
                               <div className="dropdown-menu m-0">
+                              <Link to="/Event2023" className="dropdown-item ">Events 2023-2024</Link>
                                   <Link to="/Xecom" className="dropdown-item ">Xecom 2022</Link>
                                   <Link to="/Xecom" className="dropdown-item">Xecom 2023</Link>
                               </div>
