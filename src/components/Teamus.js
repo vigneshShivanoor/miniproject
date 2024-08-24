@@ -50,6 +50,7 @@ export default function Teamus() {
                             <div className="dropdown-menu m-0">
                                 <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
                                 {/* <Link to="feature.html" className="dropdown-item">Our features</Link> */}
+                                <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
                                 <Link to="/Teamus" className="dropdown-item ">Team Members</Link>
                                 <Link to="/Faculty" className="dropdown-item">Faculty</Link>
                                

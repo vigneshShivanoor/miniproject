@@ -106,6 +106,7 @@ function Faculty() {
                   <Link to="/Teamus" className="dropdown-item">
                     Team Members
                   </Link>
+                  <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
                   <Link to="/Faculty" className="dropdown-item">
                     Faculty
                   </Link>

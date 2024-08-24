@@ -51,7 +51,7 @@ export default function Serviceus() {
                               <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</Link>
                               <div className="dropdown-menu m-0">
                                   <Link to="/Priceus" className="dropdown-item">Pricing Plan</Link>
-                                
+                                  <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
                                   <Link to="/Teamus" className="dropdown-item">Team Members</Link>
                                   <Link to="/Faculty" className="dropdown-item">Faculty</Link>
                                   
