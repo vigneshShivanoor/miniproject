@@ -46,7 +46,7 @@ export default function Priceus() {
               <Link to="/" className="nav-item nav-link">
                 Home
               </Link>
-              <Link to="/Aboutus" className="nav-item nav-link active">
+              <Link to="/Aboutus" className="nav-item nav-link ">
                 About
               </Link>
               <div className="nav-item dropdown">
@@ -61,7 +61,9 @@ export default function Priceus() {
                   <Link to="/Recent" className="dropdown-item ">
                     Recent
                   </Link>
-                  <Link to="/Event2023" className="dropdown-item ">Events 2023-2024</Link>
+                  <Link to="/Event2023" className="dropdown-item ">
+                    Events 2023-2024
+                  </Link>
                   <Link to="/Events" className="dropdown-item ">
                     Events 21-22
                   </Link>
@@ -103,7 +105,9 @@ export default function Priceus() {
                   <Link to="/Teamus" className="dropdown-item">
                     Team Members
                   </Link>
-                  <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
+                  <Link to="/NewsUpdates" className="dropdown-item">
+                    News Annoucements
+                  </Link>
                   <Link to="/Faculty" className="dropdown-item">
                     Faculty
                   </Link>
