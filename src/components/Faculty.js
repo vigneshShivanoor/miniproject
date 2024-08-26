@@ -27,7 +27,7 @@ function Faculty() {
               style={{ filter: "drop-shadow(2px 4px 6px black)" }}
             >
               <img
-                src="img/logo.jpg"
+                src="img/ieee.png"
                 alt="logo"
                 style={{ padding: "0.3rem 1rem" }}
               />
@@ -106,7 +106,9 @@ function Faculty() {
                   <Link to="/Teamus" className="dropdown-item">
                     Team Members
                   </Link>
-                  <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
+                  <Link to="/NewsUpdates" className="dropdown-item">
+                    News Annoucements
+                  </Link>
                   <Link to="/Faculty" className="dropdown-item">
                     Faculty
                   </Link>

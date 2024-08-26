@@ -1,0 +1,64 @@
+/* Container for centering the entire login container */
+.login-container {
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  text-align: center; /* Center text inside the container */
+}
+
+/* Styling for the header */
+header {
+  margin-bottom: 1.5rem; /* Adds space below the header */
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 2em; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #333; /* Optional: Adjust color for better visibility */
+}
+
+/* Styling the form itself */
+.login-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-top: 0; /* Ensures form card is placed correctly */
+}
+
+/* Form header inside the form */
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Input fields styling */
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Focus state for inputs */
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}

@@ -24,6 +24,8 @@ import Faq from "./components/Faq";
 import Slider from "./components/Slider";
 import Event2023 from "./components/Event2023";
 import NewsUpdates from "./components/NewsUpdates";
+import Login from "./components/Login";
+import FacultyLogin from "./components/FacultyLogin";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
           <Route path="/Event2023" element={<Event2023 />}></Route>
 
           <Route path="/Contact" element={<Contact />}></Route>
+          <Route path="/Login" element={<Login />}></Route>
           <Route path="/Events" element={<Events />}></Route>
           <Route path="/Recent" element={<Recent />}></Route>
           <Route path="/Events1" element={<Events1 />}></Route>
@@ -53,6 +56,7 @@ function App() {
           <Route path="/Codequizz" element={<CodeQuizz />}></Route>
           <Route path="/Faq" element={<Faq />}></Route>
           <Route path="/Slider" element={<Slider />}></Route>
+          <Route path="/FacultyLogin" element={<FacultyLogin/>}></Route>
         </Routes>
       </Router>
     </>

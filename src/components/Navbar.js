@@ -53,6 +53,19 @@ function Navbar() {
                   <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
                   <Link to="/Teamus" className="dropdown-item">Team Members</Link>
                   <Link to="/Faculty" className="dropdown-item">Faculty</Link>
+                  <Link to="/Login" className="dropdown-item">Login</Link>
+                                    
+
+
+                </div>
+              </div>
+              <div className="nav-item dropdown">
+                <Link to="Aboutus" className="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Login</Link>
+                <div className="dropdown-menu m-0">
+               
+                  <Link to="/Login" className="dropdown-item">Admin Login</Link>
+                  <Link to="/FacultyLogin" className="dropdown-item">Faculty Login</Link>
+                                    
 
 
                 </div>
