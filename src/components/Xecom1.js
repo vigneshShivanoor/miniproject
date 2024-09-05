@@ -48,8 +48,8 @@ const GeneralExecom = () => {
               <div className="nav-item dropdown">
                 <Link to="/xecom" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Xecom</Link>
                 <div className="dropdown-menu m-0">
-                  <Link to="/Xecom" className="dropdown-item">Xecom 2023</Link>
-                  <Link to="/Xecom1" className="dropdown-item">Xecom 2024</Link>
+                  <Link to="/Xecom" className="dropdown-item">excom 2023</Link>
+                  <Link to="/Xecom1" className="dropdown-item">excom 2024</Link>
                 </div>
               </div>
               <div className="nav-item dropdown">

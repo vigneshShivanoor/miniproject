@@ -26,6 +26,7 @@ import Event2023 from "./components/Event2023";
 import NewsUpdates from "./components/NewsUpdates";
 import Login from "./components/Login";
 import FacultyLogin from "./components/FacultyLogin";
+import VolunteerTracking from "./components/Voulntertracking";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Frontpage />}></Route>
           <Route path="/Event2023" element={<Event2023 />}></Route>
+          <Route path="/Voulntertracking" element={<VolunteerTracking />}></Route>
 
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/Login" element={<Login />}></Route>

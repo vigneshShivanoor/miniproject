@@ -134,7 +134,7 @@ const GeneralExecom = () => {
         >
           <div className="row py-5">
             <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-              <h1 className="display-4 text-white animated zoomIn">XECOM</h1>
+              <h1 className="display-4 text-white animated zoomIn">excom</h1>
               <Link to="/Xecom" className="h5 text-white">
                 Alumini OF IEEE SB year of 2023
               </Link>

@@ -72,14 +72,14 @@ export default function Event2023() {
                     className="nav-link dropdown-toggle "
                     data-bs-toggle="dropdown"
                   >
-                    Xecom{" "}
+                  excom
                   </Link>
                   <div className="dropdown-menu m-0">
                     <Link to="/Xecom" className="dropdown-item ">
-                      Xecom 2022
+                    excom 2022
                     </Link>
                     <Link to="/Xecom" className="dropdown-item">
-                      Xecom 2023
+                    excom 2023
                     </Link>
                   </div>
                 </div>

@@ -150,14 +150,14 @@ const NewsUpdates = () => {
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
-                  Xecom{" "}
+                  excom
                 </Link>
                 <div className="dropdown-menu m-0">
                   <Link to="/Xecom" className="dropdown-item">
-                    Xecom 2023
+                    excom 2023
                   </Link>
                   <Link to="/Xecom1" className="dropdown-item">
-                    Xecom 2024
+                    excom 2024
                   </Link>
                 </div>
               </div>

@@ -26,7 +26,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/login", {
+      const response = await fetch("http://localhost:5001/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -38,7 +38,7 @@ function Login() {
         // Authentication successful
         setErrorMessage("");
         setShowError(false);
-        navigate("/"); // Redirect to the home page
+        navigate("/Voulntertracking"); // Redirect to the home page
       } else {
         // Authentication failed
         setErrorMessage("Invalid username or password.");

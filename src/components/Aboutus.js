@@ -42,10 +42,10 @@ export default function Aboutus() {
                               </div>
                           </div>
             <div className="nav-item dropdown">
-              <Link to="/Xecom" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">XECOM</Link>
+              <Link to="/Xecom" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">excom</Link>
               <div className="dropdown-menu m-0">
-                <Link to="/Xecom" className="dropdown-item">Xecom 2022</Link>
-                <Link to="/Bloggrid" className="dropdown-item">Xecom 2023</Link>
+                <Link to="/Xecom" className="dropdown-item">excom 2022</Link>
+                <Link to="/Bloggrid" className="dropdown-item">excom 2023</Link>
               </div>
             </div>
             <div className="nav-item dropdown">
