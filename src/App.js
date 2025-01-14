@@ -27,7 +27,8 @@ import NewsUpdates from "./components/NewsUpdates";
 import Login from "./components/Login";
 import FacultyLogin from "./components/FacultyLogin";
 import VolunteerTracking from "./components/Voulntertracking";
-
+import EventCard from "./components/EventCard";
+import Testing from "./components/Testing";
 function App() {
   return (
     <>
@@ -59,6 +60,7 @@ function App() {
           <Route path="/Faq" element={<Faq />}></Route>
           <Route path="/Slider" element={<Slider />}></Route>
           <Route path="/FacultyLogin" element={<FacultyLogin/>}></Route>
+          <Route path="/testing" element={<Testing/>}></Route>
         </Routes>
       </Router>
     </>
