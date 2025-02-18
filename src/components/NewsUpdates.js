@@ -130,15 +130,13 @@ const NewsUpdates = () => {
                   Events
                 </Link>
                 <div className="dropdown-menu m-0">
-                  <Link to="/Recent" className="dropdown-item ">
+                  <Link to="/Serviceus" className="dropdown-item ">
                     Recent
                   </Link>
                   <Link to="/Event2023" className="dropdown-item ">
                     Events 2023-2024
                   </Link>
-                  <Link to="/Events" className="dropdown-item active">
-                    Events 21-22
-                  </Link>
+
                   <Link to="/Events1" className="dropdown-item">
                     Events 2020
                   </Link>

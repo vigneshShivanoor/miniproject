@@ -1,68 +1,57 @@
 [
-    {
-        "id": 0,
-        "Link": "Webinar",
-        "AuthorName": "B.John Benedict",
-        "Date": "26 Sep, 2021",
-        "title": "Webinar on IEEE XTREME -Start of Carrer Sucess",
-        "imageUrl": "/Images/image-1725602441234-717202870.png",
-        "details": "1"
-    },
-    {
-        "id": 1,
-        "Link": "Enigma",
-        "AuthorName": "Dr.S.Nagendar Kumar",
-        "Date": "25 March, 2021",
-        "title": "Enigma 3.0",
-        "imageUrl": "/Images/image-1725602441234-717202870.png",
-        "details": "2"
-    },
-    {
-        "id": 2,
-        "Link": "IEEE Xtreme 15.0",
-        "AuthorName": "Dr. G. Soma Sekhar",
-        "Date": "23 oct 2021",
-        "title": "IEEE Xtreme 15.0",
-        "imageUrl": "/Images/image-1725602441234-717202870.png",
-        "details": "3"
-    },
-    {
-        "id": 3,
-        "Link": "Industrial Visit",
-        "AuthorName": "Dr.G.Soma Sekhar",
-        "Date": "27 feb, 2022",
-        "title": "Online Industrial Visit",
-        "imageUrl": "/Images/image-1725602441234-717202870.png",
-        "details": "4"
-    },
-    {
-        "id": 4,
-        "Link": "Naveen",
-        "AuthorName": "RAmpa",
-        "Date": "2024-09-23",
-        "title": "gfds",
-        "imageUrl": "/Images/image-1725602441234-717202870.png"
-    },
-    {
-        "id": 5,
-        "Date": [
-            "2024-09-24",
-            "2024-09-26"
-        ],
-        "Link": "ax",
-        "AuthorName": "xax",
-        "title": "as",
-        "imageUrl": "/Images/image-1725971975390-998799002.png"
-    },
-    {
-        "id": 6,
-        "Date": [
-            "",
-            "2024-10-01"
-        ],
-        "Link": "asdf",
-        "AuthorName": "ASDFG",
-        "title": "SDFGH",
-        "imageUrl": "/Images/image-1725972069185-471491517.jpg"
-    }
+  {
+    "id": "https://docs.google.com/forms/d/e/1FAIpQLScqqAoIro_T4ptSB399ND-qsf290Nr5e5S_NMxz-wp_OdH2_Q/viewform?usp=header",
+    "Date": "2025-02-08",
+    "Link": "IEEE SSIT STUDENT BRANCH",
+    "AuthorName": "K.S. RAM TILAK",
+    "title": "Agile Methodology",
+    "imageUrl": "/img/ieeessit.jpg",
+    "details": "8"
+  },
+  {
+    "id": "https://docs.google.com/forms/d/e/1FAIpQLScqqAoIro_T4ptSB399ND-qsf290Nr5e5S_NMxz-wp_OdH2_Q/viewform?usp=header",
+    "Link": "Chakravyuh",
+    "AuthorName": "Neha Nandal",
+    "Date": "2 march, 2024",
+    "title": "Chakravyuh",
+    "imageUrl": "/img/chakravyuh.jpg",
+    "details": "1"
+  },
+  {
+    "id": 3,
+    "Link": "Industrial Visit",
+    "AuthorName": "Dr.G.Soma Sekhar",
+    "Date": "27 Feb, 2022",
+    "title": "Industrial Visit",
+    "imageUrl": "/img/industrial.jpeg",
+    "details": "4"
+  },
+  {
+    "id": "https://docs.google.com/forms/d/e/1FAIpQLScqqAoIro_T4ptSB399ND-qsf290Nr5e5S_NMxz-wp_OdH2_Q/viewform?usp=header",
+    "Link": "Webinar",
+    "AuthorName": "Roshan Nair",
+    "Date": "26 Sep, 2021",
+    "title": "Webinar on IEEE XTREME -Start of Career Success",
+    "imageUrl": "/img/Ieeewebinar.jpg",
+    "details": "1"
+  },
+
+  {
+    "id": 1,
+    "Link": "Enigma",
+    "AuthorName": "Dr.S.Nagendar Kumar",
+    "Date": "25 March, 2021",
+    "title": "Enigma 3.0",
+    "imageUrl": "/img/engima.jpeg",
+    "details": "2"
+  },
+  {
+    "id": 2,
+    "Link": "IEEE Xtreme 15.0",
+    "AuthorName": "Dr. G. Soma Sekhar",
+    "Date": "23 Oct, 2021",
+    "title": "IEEE Xtreme 15.0",
+    "imageUrl": "/img/OIP.jpeg",
+    "details": "3"
+  }
 ]

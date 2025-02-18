@@ -59,15 +59,13 @@ function Faculty() {
                   Events
                 </Link>
                 <div className="dropdown-menu m-0">
-                  <Link to="/Recent" className="dropdown-item ">
+                  <Link to="/Serviceus" className="dropdown-item ">
                     Recent
                   </Link>
                   <Link to="/Event2023" className="dropdown-item ">
                     Events 2023-2024
                   </Link>
-                  <Link to="/Events" className="dropdown-item ">
-                    Events 21-22
-                  </Link>
+
                   <Link to="/Events1" className="dropdown-item">
                     Events 2020
                   </Link>
@@ -83,10 +81,10 @@ function Faculty() {
                 </Link>
                 <div className="dropdown-menu m-0">
                   <Link to="/Xecom" className="dropdown-item">
-                  excom 2022
+                    excom 2022
                   </Link>
                   <Link to="/Bloggrid" className="dropdown-item">
-                  excom 2023
+                    excom 2023
                   </Link>
                 </div>
               </div>

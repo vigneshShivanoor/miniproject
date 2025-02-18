@@ -49,37 +49,21 @@ export default function Event2023() {
                 <Link to="/Aboutus" className="nav-item nav-link">
                   About
                 </Link>
-                <div className="nav-item dropdown">
-                  <Link
-                    to="/Events"
-                    className="nav-link dropdown-toggle "
-                    data-bs-toggle="dropdown"
-                  >
-                    Events
-                  </Link>
-                  <div className="dropdown-menu m-0">
-                    <Link to="/Events" className="dropdown-item ">
-                      Events 21-22
-                    </Link>
-                    <Link to="/Events1" className="dropdown-item">
-                      Events 2020
-                    </Link>
-                  </div>
-                </div>
+
                 <div className="nav-item dropdown">
                   <Link
                     to="/Xecom"
                     className="nav-link dropdown-toggle "
                     data-bs-toggle="dropdown"
                   >
-                  excom
+                    excom
                   </Link>
                   <div className="dropdown-menu m-0">
                     <Link to="/Xecom" className="dropdown-item ">
-                    excom 2022
+                      excom 2022
                     </Link>
                     <Link to="/Xecom" className="dropdown-item">
-                    excom 2023
+                      excom 2023
                     </Link>
                   </div>
                 </div>
@@ -99,7 +83,9 @@ export default function Event2023() {
                     <Link to="/Teamus" className="dropdown-item">
                       Team Members
                     </Link>
-                    <Link to="/NewsUpdates" className="dropdown-item">News Annoucements</Link>
+                    <Link to="/NewsUpdates" className="dropdown-item">
+                      News Annoucements
+                    </Link>
                     <Link to="/Faculty" className="dropdown-item">
                       Faculty
                     </Link>

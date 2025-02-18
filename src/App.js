@@ -28,7 +28,9 @@ import Login from "./components/Login";
 import FacultyLogin from "./components/FacultyLogin";
 import VolunteerTracking from "./components/Voulntertracking";
 import EventCard from "./components/EventCard";
-import Testing from "./components/Testing";
+
+import Signup from "./components/Signup";
+import Serviceus from "./components/Serviceus";
 function App() {
   return (
     <>
@@ -36,7 +38,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Frontpage />}></Route>
           <Route path="/Event2023" element={<Event2023 />}></Route>
-          <Route path="/Voulntertracking" element={<VolunteerTracking />}></Route>
+          <Route
+            path="/Voulntertracking"
+            element={<VolunteerTracking />}
+          ></Route>
 
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/Login" element={<Login />}></Route>
@@ -47,6 +52,8 @@ function App() {
           {/* <Route path="/Featureus" element={<Featureus/>}></Route> */}
           <Route path="/Priceus" element={<Priceus />}></Route>
           <Route path="/Teamus" element={<Teamus />}></Route>
+          <Route path="/signup" element={<Signup />}></Route>
+
           <Route path="/Bloggrid" element={<Bloggrid />}></Route>
           <Route path="/NewsUpdates" element={<NewsUpdates />}></Route>
           <Route path="/Xecom" element={<Xecom />}></Route>
@@ -59,8 +66,10 @@ function App() {
           <Route path="/Codequizz" element={<CodeQuizz />}></Route>
           <Route path="/Faq" element={<Faq />}></Route>
           <Route path="/Slider" element={<Slider />}></Route>
-          <Route path="/FacultyLogin" element={<FacultyLogin/>}></Route>
-          <Route path="/testing" element={<Testing/>}></Route>
+          <Route path="/FacultyLogin" element={<FacultyLogin />}></Route>
+
+          <Route path="/Eventcard" element={<EventCard />}></Route>
+          <Route path="/Serviceus" element={<Serviceus />}></Route>
         </Routes>
       </Router>
     </>

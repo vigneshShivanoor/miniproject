@@ -64,7 +64,7 @@ const GeneralExecom = () => {
                   Events
                 </Link>
                 <div className="dropdown-menu m-0">
-                  <Link to="/Recent" className="dropdown-item">
+                  <Link to="/Serviceus" className="dropdown-item">
                     Recent
                   </Link>
                   <Link to="/Event2023" className="dropdown-item ">
@@ -72,9 +72,6 @@ const GeneralExecom = () => {
                   </Link>
                   <Link to="/Events1" className="dropdown-item active">
                     Events 21-22
-                  </Link>
-                  <Link to="/Xecom" className="dropdown-item">
-                    Events 22-23
                   </Link>
                 </div>
               </div>
@@ -142,7 +139,6 @@ const GeneralExecom = () => {
           </div>
         </div>
       </div>
-
       <div className="main-container">
         <h1>Computer Society</h1>
         <div className="profile-card">
@@ -261,124 +257,7 @@ const GeneralExecom = () => {
           </Link>
         </div>
       </div>
-      <div className="main-container">
-        <h1>IEEE Nano Technology</h1>
-        <div className="profile-card">
-          <img src="img/vardhan.jpg" alt="vardhan" className="profile-img" />
-          <h2>P Vardhan Reddy</h2>
-          <p>Chair</p>
-          <Link
-            to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail1}`}
-            className="profile-link"
-          >
-            Email
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/vardhan-reddy-49626322b/"
-            className="profile-link"
-          >
-            LinkedIn
-          </Link>
-        </div>
-        <div className="profile-card">
-          <img src="img/dhanush.jpg" alt="dhanush" className="profile-img" />
-          <h2>E.DHANUSH</h2>
-          <p> VICE -Chair</p>
-          <Link
-            to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail2}`}
-            className="profile-link"
-          >
-            Email
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/erramuri-dhanush-rajkumar-54b550265/"
-            className="profile-link"
-          >
-            LinkedIn
-          </Link>
-        </div>
-        <div className="profile-card">
-          <img
-            src="img/vardhan.jpg"
-            alt="Swathy Satheesan"
-            className="profile-img"
-          />
-          <h2>Nandha Kishore</h2>
-          <p>Tresureer</p>
-          <Link
-            to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail3}`}
-            className="profile-link"
-          >
-            Email
-          </Link>
-          <Link to="" className="profile-link">
-            LinkedIn
-          </Link>
-        </div>
-        <div className="profile-card">
-          <img
-            src="img/vardhan.jpg"
-            alt="Irene Alsa George"
-            className="profile-img"
-          />
-          <h2>Naveen</h2>
-          <p>Secretary</p>
-          <Link
-            to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail6}`}
-            className="profile-link"
-          >
-            Email
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/naveen-rampa-aa1178270/"
-            className="profile-link"
-          >
-            LinkedIn
-          </Link>
-        </div>
-        <div className="profile-card">
-          <img
-            src="img/dhanush.jpg"
-            alt="Irene Alsa George"
-            className="profile-img"
-          />
-          <h2>Bhavya</h2>
-          <p>Secretary</p>
-          <Link
-            to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail4}`}
-            className="profile-link"
-          >
-            Email
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/naveen-rampa-aa1178270/"
-            className="profile-link"
-          >
-            LinkedIn
-          </Link>
-        </div>
-        <div className="profile-card">
-          <img
-            src="img/dhanush.jpg"
-            alt="Irene Alsa George"
-            className="profile-img"
-          />
-          <h2>Vignesh</h2>
-          <p>Secretary</p>
-          <Link
-            to={`https://mail.google.com/mail/u/0/?view=cm&to=${mail5}`}
-            className="profile-link"
-          >
-            Email
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/shivanoor-vignesh-541085270/"
-            className="profile-link"
-          >
-            LinkedIn
-          </Link>
-        </div>
-      </div>
+
       <Footer />
     </div>
   );
